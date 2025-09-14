@@ -1,0 +1,192 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+html{
+font-size:25px;
+}
+.hero-section{
+background-image: url(HBanner.jpg);
+background-size:cover;
+background-blend-mode:overlay;
+background-color:rgba(0,0,0,0.5);
+height:100vh;
+width:100vw;
+position:relative;
+text-align:center;
+margin-bottom:20px;
+}
+.hero-text{
+color:white;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.hero-text > h1{
+font-size:40px;
+}
+.book-button,.know-more{
+color:black;
+background-color:aqua;
+font-size:20px;
+border:none;
+border-radius:20px;
+padding:10px 20px;
+margin-top:10px;
+cursor:pointer;
+text-decoration: none;   
+display: inline-block;
+}
+.about-section{
+display:flex;
+justify-content:space-around;
+align-items:center;
+}
+.about-heading,.know-more,.Room-heading,.form-heading
+{
+text-align:center;
+}
+.about-us{
+width:50%;
+margin-top:10px;
+}
+ul li{
+list-style:none;
+}
+.fa-solid{
+margin-right:10px;
+}
+.room-type-container{
+display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:row-reverse;
+padding:0px 20px;
+margin-top:20px;
+}
+.room-list h4{
+font-size:20px;
+}
+.room-images img{
+max-width:100%;
+}
+.about-section > h1{
+text-decoration:underline;
+}
+.help-button{
+background-color:brown;
+width:fit-content;
+padding:5px 15px;
+border-radius:10px;
+position:fixed;
+bottom:20px;
+right:0;
+margin:5px 5px;
+}
+.help-button{
+color:white;
+letter-spacing:2px;
+cursor:pointer;
+}
+form{
+border:2px solid grey;
+width:max-content;
+padding:20px;
+border-radius:20px;
+margin:30px 0px;
+}
+.form-container{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+label{
+font-size:20px;
+}
+input,select{
+padding:5px;
+font-size:15px;
+}
+
+@media only screen and (max-width:500px){
+.about-heading,
+.room-heading,
+.form-heading{
+font-size:1.5rem;
+text-decoration:underline;
+}
+.hero-text > h1{
+font-size:1.5rem;
+}
+.about-heading{
+margin:0.5rem 0rem;
+}
+p{
+font-size:1rem;
+}
+.hero-text{
+width:fit-content;
+}
+.about-section,.room-type-container{
+display:block;
+padding:0rem 0.5rem;
+}
+.about-us{
+width:100%;
+}
+.amenities>h3{
+text-align:center;
+}
+.hero-section{
+margin-bottom:0px;
+}
+.book-button,.know-more{
+font-size:1rem;
+}
+.room-list h4{
+text-align:center;
+}
+form{
+margin:0rem 0rem 2rem 0rem;
+}
+label{
+font-size:inherit;
+}
+.form-heading{
+margin:0.75rem 0rem;
+}
+}
+@media only screen and (min-width:501px)and (max-width:980px){
+.about-heading,
+.room-heading,
+.form-heading{
+font-size:1.8rem;
+text-decoration:underline;
+}
+.hero-text > h1{
+font-size:2rem;
+}
+p{
+font-size:0.9rem;
+}
+room-images img{
+max-width:380px;
+}
+.form-heading{
+margin:0.75rem 0rem;
+}
+label{
+font-size:inherit;
+}
+form{
+margin:0rem 0rem 2rem 0rem;
+}
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
